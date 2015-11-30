@@ -2,6 +2,7 @@
     <iq:application entry="VarioField" id="394F84AE4C1147FD93605F3DD9048DEE" launcherIcon="LauncherIcon" name="AppName" type="datafield">
         <iq:products>
             <iq:product id="fenix3"/>
+            <iq:product id="epix"/>
         </iq:products>
 
         <iq:permissions/>
