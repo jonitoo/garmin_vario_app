@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="30" pc="268435467" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="33" pc="268435467" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="34" pc="268435503" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="35" pc="268435515" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="36" pc="268435551" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="38" pc="268435564" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="39" pc="268435589" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="40" pc="268435611" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="41" pc="268435630" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="43" pc="268435708" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="44" pc="268435739" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="46" pc="268435817" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="47" pc="268435848" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="49" pc="268435920" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="50" pc="268435951" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="54" pc="268436032" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="59" pc="268436110" symbol="setPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="60" pc="268436120" symbol="setPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="14" pc="268436331" symbol="&lt;init&gt;"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="18" pc="268436140" symbol="onStart"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="23" pc="268436187" symbol="onStop"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="27" pc="268436234" symbol="onPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="32" pc="268436257" symbol="getInitialView"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="33" pc="268436287" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268436373" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436360" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="47" pc="268435467" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="48" pc="268435503" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="49" pc="268435515" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="50" pc="268435551" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="53" pc="268435564" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="54" pc="268435589" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="56" pc="268435611" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="59" pc="268435686" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="62" pc="268435791" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="63" pc="268435802" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="67" pc="268435871" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="72" pc="268435949" symbol="setPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="73" pc="268435959" symbol="setPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="15" pc="268436170" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="18" pc="268436179" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="28" pc="268436501" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="18" pc="268435979" symbol="onStart"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="23" pc="268436026" symbol="onStop"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="27" pc="268436073" symbol="onPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="32" pc="268436096" symbol="getInitialView"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="33" pc="268436126" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268436592" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268436579" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -80,7 +77,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="13" module="true" symbol="Menus"/>
+<entry id="15" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -128,7 +125,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="16" symbol="AppName"/>
+<entry field="true" id="18" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -147,7 +144,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry field="true" id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry field="true" id="17" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -191,7 +188,7 @@
 <entry field="true" id="8388801" symbol="BLE_ERROR"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
 <entry id="8389604" symbol="mEventId"/>
-<entry field="true" id="18" symbol="varioValue"/>
+<entry field="true" id="20" symbol="varioValue"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="8389008" symbol="ANIM_TYPE_EASE_OUT"/>
 <entry id="8388943" method="true" symbol="subtract"/>
@@ -284,7 +281,7 @@
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
 <entry id="8389628" method="true" symbol="getDrawable"/>
-<entry id="14" module="true" symbol="Layouts"/>
+<entry id="16" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389632" symbol="CHANNEL_TYPE_RX_ONLY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -555,6 +552,7 @@
 <entry field="true" id="8388993" symbol="KEY_ZOUT"/>
 <entry field="true" id="8389311" symbol="accuracy"/>
 <entry field="true" id="8389218" symbol="MSG_CODE_EVENT_TX"/>
+<entry field="true" id="12" symbol="vibrateData"/>
 <entry id="8389277" symbol="mProperties"/>
 <entry field="true" id="8389461" symbol="WEIGHT_SCALE_STATUS_COMPLETE"/>
 <entry id="8389439" object="true" symbol="BikePower"/>
@@ -587,6 +585,7 @@
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry field="true" id="8389525" symbol="hwRevision"/>
 <entry id="6" module="true" symbol="globals_Rez_Layouts"/>
+<entry field="true" id="13" symbol="vibrateData2"/>
 <entry field="true" id="8389219" symbol="MSG_CODE_EVENT_TRANSFER_RX_FAILED"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="8388859" symbol="SUB_SPORT_DOWNHILL"/>
@@ -698,7 +697,7 @@
 <entry field="true" id="8389413" symbol="BATT_STATUS_OK"/>
 <entry field="true" id="8389399" symbol="vibrateOn"/>
 <entry id="8389192" method="true" symbol="setPenWidth"/>
-<entry field="true" id="17" symbol="positionView"/>
+<entry field="true" id="19" symbol="positionView"/>
 <entry field="true" id="8388918" symbol="FORMAT_MEDIUM"/>
 <entry field="true" id="8389012" symbol="CLICK_TYPE_HOLD"/>
 <entry field="true" id="8389229" symbol="NETWORK_PUBLIC"/>
@@ -706,7 +705,7 @@
 <entry field="true" id="8389608" symbol="LAYOUT_VALIGN_BOTTOM"/>
 <entry id="8389053" object="true" symbol="BitmapResource"/>
 <entry field="true" id="8388982" symbol="TONE_POWER"/>
-<entry id="12" method="true" symbol="setPosition"/>
+<entry id="14" method="true" symbol="setPosition"/>
 <entry field="true" id="8389590" symbol="HTTP_REQUEST_METHOD_POST"/>
 <entry field="true" id="8388842" symbol="SPORT_CROSS_COUNTRY_SKIING"/>
 <entry field="true" id="8389310" symbol="position"/>
@@ -890,7 +889,7 @@
 <entry field="true" id="8388733" symbol="timerTime"/>
 <entry field="true" id="8388755" symbol="swimEfficency"/>
 <entry id="8388935" method="true" symbol="duration"/>
-<entry id="19" method="true" symbol="onPosition"/>
+<entry id="21" method="true" symbol="onPosition"/>
 <entry id="8389642" symbol="title"/>
 <entry field="true" id="8389263" symbol="DEFAULT_DEVICE_TYPE"/>
 <entry id="8388728" method="true" symbol="getActivityInfo"/>
@@ -1106,8 +1105,7 @@
 <entry field="true" id="8389431" symbol="BIKE_POWER_SENSOR_TYPE_CNT"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436029" name="varioValue" stackId="3" startPc="268435564"/>
-<entry endPc="268436107" name="string" stackId="2" startPc="268435467"/>
+<entry endPc="268435868" name="varioValue" stackId="2" startPc="268435564"/>
 </localVars>
 <annotations/>
 <functions>
