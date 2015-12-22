@@ -13,7 +13,6 @@ using Toybox.Attention as Attention;
 class VarioView extends Ui.View {
 
     var posnInfo = null;
-    var clockTime = null; //ms
     var lastAltitude = 0;
     var timestamp = 0;
     var lastTimestamp = 0;
