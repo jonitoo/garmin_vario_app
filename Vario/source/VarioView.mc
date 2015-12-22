@@ -39,17 +39,16 @@ class VarioView extends Ui.View {
         
         if( posnInfo != null ) {
         
-			// change in altitude since last update
+			// change in altitude since last position update
         	var intervalAltitude = posnInfo.altitude - lastAltitude;   // in m
 
-			// change in time since last update
+			// change in time since last position update
         	var intervalTime = timestamp.toFloat() - lastTimestamp.toFloat(); // usually around 1000 in ms
 
         	// vario is increase in altitude per time
 			var varioValue = 0;
 			var intervalTimeSec = intervalTime.toFloat() / 1000;
 			varioValue = (intervalAltitude / intervalTimeSec);
-        	var varioValueFormatted = varioValue.toDouble().format("%0.2f");
         	
         	// print vario
         	if(varioValue >= 0) {
@@ -57,13 +56,13 @@ class VarioView extends Ui.View {
         	} else {
         		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
         	}
-            dc.drawText(dc.getWidth() / 2, 20 , Gfx.FONT_LARGE, varioValueFormatted.toString() + " m/s", Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText(dc.getWidth() / 2, 20 , Gfx.FONT_LARGE, varioValue.toDouble().format("%0.2f").toString() + " m/s", Gfx.TEXT_JUSTIFY_CENTER );
             
             // print altitude
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
             dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 10), Gfx.FONT_SMALL, posnInfo.altitude.toDouble().format("%0.2f").toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
 
-			// vibration
+			// handle vibration
             if(varioValue > 0) {
         		Attention.vibrate([new Attention.VibeProfile(varioValue, 100 )]);
         	}
