@@ -37,36 +37,31 @@ class VarioView extends Ui.View {
         dc.clear();
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT );
         
-        
         if( posnInfo != null ) {
         
 			// change in altitude since last update
         	var intervalAltitude = posnInfo.altitude - lastAltitude;   // in m
+
 			// change in time since last update
-        	var intervalTime = timestamp - lastTimestamp; // usually around 1000 in ms
+        	var intervalTime = timestamp.toFloat() - lastTimestamp.toFloat(); // usually around 1000 in ms
+
         	// vario is increase in altitude per time
 			var varioValue = 0;
-			var intervalTimeSec = 0;
-			if(intervalTime > 1000) {
-				intervalTimeSec = intervalTime.toFloat() / 1000;
-				varioValue = intervalAltitude / intervalTimeSec;
-			} 
+			var intervalTimeSec = intervalTime.toFloat() / 1000;
+			varioValue = (intervalAltitude / intervalTimeSec);
+        	var varioValueFormatted = varioValue.toDouble().format("%0.2f");
         	
-        	// vario value
-        	if(varioValue > 0) {
+        	// print vario
+        	if(varioValue >= 0) {
 	        	dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
         	} else {
         		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
         	}
-            dc.drawText(dc.getWidth() / 2, 20 , Gfx.FONT_LARGE, varioValue.toString() + " m/s", Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText(dc.getWidth() / 2, 20 , Gfx.FONT_LARGE, varioValueFormatted.toString() + " m/s", Gfx.TEXT_JUSTIFY_CENTER );
             
-            // altitude
+            // print altitude
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 10), Gfx.FONT_SMALL, posnInfo.altitude.toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
-            
-            // altitude
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 30), Gfx.FONT_SMALL, intervalTimeSec.toString() + " ", Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 10), Gfx.FONT_SMALL, posnInfo.altitude.toDouble().format("%0.2f").toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
 
 			// vibration
             if(varioValue > 0) {

@@ -4,40 +4,37 @@
 <entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="36" pc="268435467" symbol="onUpdate"/>
 <entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="37" pc="268435503" symbol="onUpdate"/>
 <entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="38" pc="268435515" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="41" pc="268435551" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="44" pc="268435564" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="40" pc="268435551" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="43" pc="268435564" symbol="onUpdate"/>
 <entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="46" pc="268435589" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="48" pc="268435608" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="49" pc="268435615" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="50" pc="268435622" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="51" pc="268435633" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="52" pc="268435652" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="56" pc="268435662" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="57" pc="268435673" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="59" pc="268435712" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="61" pc="268435748" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="64" pc="268435823" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="65" pc="268435859" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="68" pc="268435964" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="69" pc="268436000" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="72" pc="268436093" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="73" pc="268436104" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="77" pc="268436170" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="78" pc="268436192" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="81" pc="268436211" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="87" pc="268436289" symbol="setPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="88" pc="268436299" symbol="setPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="89" pc="268436309" symbol="setPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="15" pc="268436621" symbol="&lt;init&gt;"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="16" pc="268436630" symbol="&lt;init&gt;"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="18" pc="268436329" symbol="onStart"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="23" pc="268436376" symbol="onStop"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="28" pc="268436423" symbol="onPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="30" pc="268436446" symbol="onPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="35" pc="268436486" symbol="getInitialView"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="36" pc="268436516" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268436593" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436580" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="49" pc="268435626" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="50" pc="268435633" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="51" pc="268435652" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="52" pc="268435659" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="55" pc="268435686" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="56" pc="268435697" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="58" pc="268435736" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="60" pc="268435772" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="63" pc="268435847" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="64" pc="268435883" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="67" pc="268436011" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="68" pc="268436022" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="72" pc="268436088" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="73" pc="268436110" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="76" pc="268436129" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="82" pc="268436207" symbol="setPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="83" pc="268436217" symbol="setPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="84" pc="268436227" symbol="setPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="15" pc="268436539" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="16" pc="268436548" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="18" pc="268436247" symbol="onStart"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="23" pc="268436294" symbol="onStop"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="28" pc="268436341" symbol="onPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="30" pc="268436364" symbol="onPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="35" pc="268436404" symbol="getInitialView"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="36" pc="268436434" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268436511" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268436498" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -1117,10 +1114,11 @@
 <entry field="true" id="8389431" symbol="BIKE_POWER_SENSOR_TYPE_CNT"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436208" name="varioValue" stackId="4" startPc="268435564"/>
-<entry endPc="268436208" name="intervalTime" stackId="3" startPc="268435564"/>
-<entry endPc="268436208" name="intervalTimeSec" stackId="5" startPc="268435564"/>
-<entry endPc="268436208" name="intervalAltitude" stackId="2" startPc="268435564"/>
+<entry endPc="268436126" name="varioValue" stackId="4" startPc="268435564"/>
+<entry endPc="268436126" name="intervalTime" stackId="3" startPc="268435564"/>
+<entry endPc="268436126" name="intervalTimeSec" stackId="5" startPc="268435564"/>
+<entry endPc="268436126" name="intervalAltitude" stackId="2" startPc="268435564"/>
+<entry endPc="268436126" name="varioValueFormatted" stackId="6" startPc="268435564"/>
 </localVars>
 <annotations/>
 <functions>
