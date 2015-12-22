@@ -23,10 +23,11 @@ class VarioApp extends App.AppBase {
         Position.enableLocationEvents(Position.LOCATION_DISABLE, method(:onPosition));
     }
 
+	// updated about each second
     function onPosition(info) {
         clockTime = Sys.getClockTime();
-        varioView.setTime(clockTime.getTimer());
-        varioView.setPosition(info);
+       //varioView.setTime(clockTime.getTimer());
+        varioView.setPosition(info,clockTime.getTimer());
     }
     
     //! Return the initial view of your application here

@@ -15,6 +15,7 @@ class VarioView extends Ui.View {
     var posnInfo = null;
     var clockTime = null; //ms
     var lastAltitude = 0;
+    var timestamp = 0;
     var lastTimestamp = 0;
                       
     //! Load your resources here
@@ -39,9 +40,19 @@ class VarioView extends Ui.View {
         
         if( posnInfo != null ) {
         
-        	// vario (4 m/s is good)
-        	var varioValue = posnInfo.altitude - lastAltitude;   
-        	lastAltitude = posnInfo.altitude;
+			// change in altitude since last update
+        	var intervalAltitude = posnInfo.altitude - lastAltitude;   // in m
+			// change in time since last update
+        	var intervalTime = timestamp - lastTimestamp; // usually around 1000 in ms
+        	// vario is increase in altitude per time
+			var varioValue = 0;
+			var intervalTimeSec = 0;
+			if(intervalTime > 1000) {
+				intervalTimeSec = intervalTime.toFloat() / 1000;
+				varioValue = intervalAltitude / intervalTimeSec;
+			} 
+        	
+        	// vario value
         	if(varioValue > 0) {
 	        	dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
         	} else {
@@ -51,30 +62,31 @@ class VarioView extends Ui.View {
             
             // altitude
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 20), Gfx.FONT_SMALL, posnInfo.altitude.toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
-       		
-       		// altitude
+            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 10), Gfx.FONT_SMALL, posnInfo.altitude.toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
+            
+            // altitude
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-			//var timestampMili = clockTime.getTimer();
-            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 40), Gfx.FONT_SMALL,  lastTimestamp.toString(), Gfx.TEXT_JUSTIFY_CENTER );
-
+            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 30), Gfx.FONT_SMALL, intervalTimeSec.toString() + " ", Gfx.TEXT_JUSTIFY_CENTER );
 
 			// vibration
             if(varioValue > 0) {
         		Attention.vibrate([new Attention.VibeProfile(varioValue, 100 )]);
         	}
+        	
+        	// update data
+        	lastAltitude = posnInfo.altitude;
+			lastTimestamp = timestamp;
         }
         else {
             dc.drawText( (dc.getWidth() / 2), (dc.getHeight() / 2), Gfx.FONT_SMALL, "No position info", Gfx.TEXT_JUSTIFY_CENTER );
         }
     }
 
-    function setPosition(info) {
+	// set the positions for a given timestamp 
+    function setPosition(info, time) {
         posnInfo = info; 
+        timestamp = time;
         Ui.requestUpdate();
     }
     
-    function setTime(timestamp) {
-        lastTimestamp = timestamp;
-    }
 }
