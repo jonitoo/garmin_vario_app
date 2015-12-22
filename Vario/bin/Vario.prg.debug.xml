@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="47" pc="268435467" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="48" pc="268435503" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="49" pc="268435515" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="50" pc="268435551" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="53" pc="268435564" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="54" pc="268435589" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="56" pc="268435611" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="59" pc="268435686" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="62" pc="268435791" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="63" pc="268435802" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="67" pc="268435871" symbol="onUpdate"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="72" pc="268435949" symbol="setPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="73" pc="268435959" symbol="setPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="15" pc="268436170" symbol="&lt;init&gt;"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="18" pc="268436179" symbol="&lt;init&gt;"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="28" pc="268436501" symbol="&lt;init&gt;"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="18" pc="268435979" symbol="onStart"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="23" pc="268436026" symbol="onStop"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="27" pc="268436073" symbol="onPosition"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="32" pc="268436096" symbol="getInitialView"/>
-<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="33" pc="268436126" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268436592" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436579" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="33" pc="268435467" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="34" pc="268435503" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="35" pc="268435515" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="38" pc="268435551" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="41" pc="268435564" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="42" pc="268435589" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="43" pc="268435611" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="44" pc="268435622" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="46" pc="268435661" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="48" pc="268435697" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="51" pc="268435772" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="52" pc="268435808" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="55" pc="268435913" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="56" pc="268435924" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="60" pc="268435993" symbol="onUpdate"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="65" pc="268436071" symbol="setPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="66" pc="268436081" symbol="setPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioView.mc" lineNum="15" pc="268436353" symbol="&lt;init&gt;"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="18" pc="268436101" symbol="onStart"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="23" pc="268436148" symbol="onStop"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="27" pc="268436195" symbol="onPosition"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="32" pc="268436218" symbol="getInitialView"/>
+<entry filename="/home/joni/workspace/Vario/Vario/source/VarioApp.mc" lineNum="33" pc="268436248" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268436325" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268436312" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -40,7 +42,7 @@
 <entry id="8389060" object="true" symbol="Text"/>
 <entry id="8389051" method="true" symbol="switchToView"/>
 <entry id="8388638" module="true" symbol="ActivityRecording"/>
-<entry field="true" id="10" symbol="posnInfo"/>
+<entry field="true" id="18" symbol="posnInfo"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry id="8388637" module="true" symbol="Communications"/>
 <entry id="8389330" symbol="december"/>
@@ -62,6 +64,7 @@
 <entry id="8388676" method="true" symbol="testTypeCreation"/>
 <entry id="8389569" symbol="mSettings"/>
 <entry field="true" id="8388852" symbol="SUB_SPORT_STREET"/>
+<entry field="true" id="10" symbol="varioView"/>
 <entry id="8388910" method="true" symbol="getHistory"/>
 <entry id="2" module="true" symbol="globals_Rez"/>
 <entry field="true" id="8389002" symbol="KEY_RIGHT"/>
@@ -71,13 +74,13 @@
 <entry field="true" id="8389149" symbol="restingHeartRate"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry field="true" id="8388876" symbol="SUB_SPORT_CARDIO_TRAINING"/>
-<entry field="true" id="11" symbol="lastAltitude"/>
+<entry field="true" id="12" symbol="lastAltitude"/>
 <entry field="true" id="8389443" symbol="WEIGHT_SCALE_GENDER_MALE"/>
 <entry id="8389358" symbol="&lt;deu&gt;"/>
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="15" module="true" symbol="Menus"/>
+<entry id="14" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -125,7 +128,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="18" symbol="AppName"/>
+<entry field="true" id="17" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -144,7 +147,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry field="true" id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="17" symbol="LauncherIcon"/>
+<entry field="true" id="16" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -188,7 +191,7 @@
 <entry field="true" id="8388801" symbol="BLE_ERROR"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
 <entry id="8389604" symbol="mEventId"/>
-<entry field="true" id="20" symbol="varioValue"/>
+<entry field="true" id="11" symbol="varioValue"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="8389008" symbol="ANIM_TYPE_EASE_OUT"/>
 <entry id="8388943" method="true" symbol="subtract"/>
@@ -225,6 +228,7 @@
 <entry id="8389026" method="true" symbol="requestUpdate"/>
 <entry field="true" id="8388997" symbol="KEY_MENU"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="9" object="true" symbol="VarioApp"/>
 <entry field="true" id="8389497" symbol="bodyFatPercentage"/>
 <entry id="8388798" method="true" symbol="toLower"/>
 <entry field="true" id="8388735" symbol="currentLocationAccuracy"/>
@@ -281,7 +285,7 @@
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
 <entry id="8389628" method="true" symbol="getDrawable"/>
-<entry id="16" module="true" symbol="Layouts"/>
+<entry id="15" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389632" symbol="CHANNEL_TYPE_RX_ONLY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -552,7 +556,6 @@
 <entry field="true" id="8388993" symbol="KEY_ZOUT"/>
 <entry field="true" id="8389311" symbol="accuracy"/>
 <entry field="true" id="8389218" symbol="MSG_CODE_EVENT_TX"/>
-<entry field="true" id="12" symbol="vibrateData"/>
 <entry id="8389277" symbol="mProperties"/>
 <entry field="true" id="8389461" symbol="WEIGHT_SCALE_STATUS_COMPLETE"/>
 <entry id="8389439" object="true" symbol="BikePower"/>
@@ -585,7 +588,6 @@
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry field="true" id="8389525" symbol="hwRevision"/>
 <entry id="6" module="true" symbol="globals_Rez_Layouts"/>
-<entry field="true" id="13" symbol="vibrateData2"/>
 <entry field="true" id="8389219" symbol="MSG_CODE_EVENT_TRANSFER_RX_FAILED"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="8388859" symbol="SUB_SPORT_DOWNHILL"/>
@@ -658,6 +660,7 @@
 <entry field="true" id="8388890" symbol="sport"/>
 <entry field="true" id="8389675" symbol="partNumber"/>
 <entry id="8388693" method="true" symbol="testUserProfile"/>
+<entry id="8" object="true" symbol="VarioView"/>
 <entry id="8388920" object="true" symbol="Moment"/>
 <entry id="8389371" symbol="&lt;cht&gt;"/>
 <entry field="true" id="8388841" symbol="SPORT_WALKING"/>
@@ -697,7 +700,6 @@
 <entry field="true" id="8389413" symbol="BATT_STATUS_OK"/>
 <entry field="true" id="8389399" symbol="vibrateOn"/>
 <entry id="8389192" method="true" symbol="setPenWidth"/>
-<entry field="true" id="19" symbol="positionView"/>
 <entry field="true" id="8388918" symbol="FORMAT_MEDIUM"/>
 <entry field="true" id="8389012" symbol="CLICK_TYPE_HOLD"/>
 <entry field="true" id="8389229" symbol="NETWORK_PUBLIC"/>
@@ -705,7 +707,7 @@
 <entry field="true" id="8389608" symbol="LAYOUT_VALIGN_BOTTOM"/>
 <entry id="8389053" object="true" symbol="BitmapResource"/>
 <entry field="true" id="8388982" symbol="TONE_POWER"/>
-<entry id="14" method="true" symbol="setPosition"/>
+<entry id="19" method="true" symbol="setPosition"/>
 <entry field="true" id="8389590" symbol="HTTP_REQUEST_METHOD_POST"/>
 <entry field="true" id="8388842" symbol="SPORT_CROSS_COUNTRY_SKIING"/>
 <entry field="true" id="8389310" symbol="position"/>
@@ -759,7 +761,6 @@
 <entry id="8388691" object="true" symbol="TimerStop"/>
 <entry field="true" id="8388972" symbol="TONE_LOUD_BEEP"/>
 <entry field="true" id="8389140" symbol="GENDER_MALE"/>
-<entry id="8" object="true" symbol="PositionSampleView"/>
 <entry id="8389539" symbol="mInitialText"/>
 <entry field="true" id="8388965" symbol="heading"/>
 <entry id="8388787" method="true" symbol="equals"/>
@@ -889,7 +890,7 @@
 <entry field="true" id="8388733" symbol="timerTime"/>
 <entry field="true" id="8388755" symbol="swimEfficency"/>
 <entry id="8388935" method="true" symbol="duration"/>
-<entry id="21" method="true" symbol="onPosition"/>
+<entry id="13" method="true" symbol="onPosition"/>
 <entry id="8389642" symbol="title"/>
 <entry field="true" id="8389263" symbol="DEFAULT_DEVICE_TYPE"/>
 <entry id="8388728" method="true" symbol="getActivityInfo"/>
@@ -1020,7 +1021,6 @@
 <entry id="8388882" method="true" symbol="save"/>
 <entry field="true" id="8389527" symbol="operatingTime"/>
 <entry id="8389106" method="true" symbol="getDimensions"/>
-<entry id="9" object="true" symbol="PositionSampleApp"/>
 <entry id="8388797" method="true" symbol="substring"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry id="8388779" symbol="mMethod"/>
@@ -1105,39 +1105,39 @@
 <entry field="true" id="8389431" symbol="BIKE_POWER_SENSOR_TYPE_CNT"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435868" name="varioValue" stackId="2" startPc="268435564"/>
+<entry endPc="268435990" name="varioValue" stackId="2" startPc="268435564"/>
 </localVars>
 <annotations/>
 <functions>
-<functionEntry name="onLayout" parent="PositionSampleView">
+<functionEntry name="onLayout" parent="VarioView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onHide" parent="PositionSampleView">
+<functionEntry name="onHide" parent="VarioView">
 <documentation/>
 </functionEntry>
-<functionEntry name="onShow" parent="PositionSampleView">
+<functionEntry name="onShow" parent="VarioView">
 <documentation><![CDATA[<div class="description"> Restore the state of the app and prepare the view to be shown<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onUpdate" parent="PositionSampleView">
+<functionEntry name="onUpdate" parent="VarioView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="setPosition" parent="PositionSampleView">
+<functionEntry name="setPosition" parent="VarioView">
 <param id="info"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onStart" parent="PositionSampleApp">
+<functionEntry name="onStart" parent="VarioApp">
 <documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onStop" parent="PositionSampleApp">
+<functionEntry name="onStop" parent="VarioApp">
 <documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onPosition" parent="PositionSampleApp">
+<functionEntry name="onPosition" parent="VarioApp">
 <param id="info"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="getInitialView" parent="PositionSampleApp">
+<functionEntry name="getInitialView" parent="VarioApp">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
 </functionEntry>
 </functions>

@@ -7,9 +7,9 @@
 using Toybox.Application as App;
 using Toybox.Position as Position;
 
-class PositionSampleApp extends App.AppBase {
+class VarioApp extends App.AppBase {
 
-    var positionView;
+    var varioView;
     var varioValue = 0;
     var lastAltitude = 0;
 
@@ -24,13 +24,13 @@ class PositionSampleApp extends App.AppBase {
     }
 
     function onPosition(info) {
-        positionView.setPosition(info);
+        varioView.setPosition(info);
     }
 
     //! Return the initial view of your application here
     function getInitialView() {
-        positionView = new PositionSampleView();
-        return [ positionView ];
+        varioView = new VarioView();
+        return [ varioView ];
     }
 
 }

@@ -10,24 +10,10 @@ using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Attention as Attention;
 
-class PositionSampleView extends Ui.View {
+class VarioView extends Ui.View {
 
     var posnInfo = null;
     var lastAltitude = 0;
-    
-    var vibrateData = [
-                        new Attention.VibeProfile(  25, 100 ),
-                        new Attention.VibeProfile(  50, 100 ),
-                        new Attention.VibeProfile(  75, 100 ),
-                        new Attention.VibeProfile( 100, 100 ),
-                        new Attention.VibeProfile(  75, 100 ),
-                        new Attention.VibeProfile(  50, 100 ),
-                        new Attention.VibeProfile(  25, 100 )
-                      ];
-                      
-    var vibrateData2 = [
-                        new Attention.VibeProfile( 100, 100 )
-                      ];
                       
     //! Load your resources here
     function onLayout(dc) {
@@ -44,19 +30,26 @@ class PositionSampleView extends Ui.View {
     function onUpdate(dc) {	
  
         // Set background color
-        dc.setColor( Gfx.COLOR_TRANSPARENT, Gfx.COLOR_BLACK );
+        dc.setColor(Gfx.COLOR_TRANSPARENT, Gfx.COLOR_BLACK );
         dc.clear();
-        dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT );
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT );
+        
+        
         if( posnInfo != null ) {
         
         	// vario (4 m/s is good)
         	var varioValue = posnInfo.altitude - lastAltitude;   
         	lastAltitude = posnInfo.altitude;
-        	//dc.setColor( Gfx );
-            dc.drawText( dc.getWidth() / 2, 20 , Gfx.FONT_LARGE, varioValue.toString() + " m/s", Gfx.TEXT_JUSTIFY_CENTER );
+        	if(varioValue > 0) {
+	        	dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
+        	} else {
+        		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
+        	}
+            dc.drawText(dc.getWidth() / 2, 20 , Gfx.FONT_LARGE, varioValue.toString() + " m/s", Gfx.TEXT_JUSTIFY_CENTER );
             
             // altitude
-            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 20), Gfx.FONT_SMALL, posnInfo.altitude.toString() + " müM", Gfx.TEXT_JUSTIFY_CENTER );
+			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 20), Gfx.FONT_SMALL, posnInfo.altitude.toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
 
 			// vibration
             if(varioValue > 0) {
