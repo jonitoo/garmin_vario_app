@@ -1,9 +1,3 @@
-//!
-//! Copyright 2015 by Garmin Ltd. or its subsidiaries.
-//! Subject to Garmin SDK License Agreement and Wearables
-//! Application Developer Agreement.
-//!
-
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
@@ -21,7 +15,7 @@ class VarioView extends Ui.View {
     //! Constructor
     function initialize()
     {
-        HR_graph = new LineGraph( 20, 10, Gfx.COLOR_RED );
+        HR_graph = new LineGraph( 20, 10, Gfx.COLOR_WHITE );
     }
                       
     //! Load your resources here
@@ -76,25 +70,22 @@ class VarioView extends Ui.View {
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
             dc.drawText(dc.getWidth() / 2, ((dc.getHeight() / 2) + 10), Gfx.FONT_SMALL, altitude.toDouble().format("%0.2f").toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
         	
-        	HR_graph.addItem(altitude);
-        	
         	// draw graph
+			HR_graph.addItem(altitude);
         	HR_graph.draw( dc, [5,30], [200,129] );
-        	
         	
         	// update data 
         	lastAltitude = altitude;
         }
         else {
-            dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, Gfx.FONT_SMALL, "No barometer information", Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, Gfx.FONT_SMALL, "Baro info not available", Gfx.TEXT_JUSTIFY_CENTER );
         }
     }
 
-	// set the positions for a given timestamp 
+	// update altiude
     function setSensorInfo(sensorInfoX, updateIntervalX) {
         sensorInfo = sensorInfoX;
         updateInterval = updateIntervalX;
-        
         Ui.requestUpdate();
     }
  

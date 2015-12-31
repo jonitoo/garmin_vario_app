@@ -1,0 +1,5 @@
+A variometer (also known as a rate of climb and descent Indicator (RCDI), rate-of-climb indicator, vertical speed indicator (VSI), or vertical velocity indicator (VVI)) is one of the flight instruments for paragliding used to inform the pilot of the near instantaneous (rather than averaged) rate of descent or climb in meters per second.
+
+Depending on the climb rate, a hapitcal feedback (vibration) is started. Like this the paragliding pilot is able to feel constant rate-of-climb rates.
+
+The altitude is measured using the air pressure sensor of the watch and updated every 500 ms.
