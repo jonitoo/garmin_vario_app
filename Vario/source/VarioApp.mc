@@ -5,35 +5,33 @@
 //!
 
 using Toybox.Application as App;
-using Toybox.Position as Position;
+using Toybox.Sensor as Sensor;
 using Toybox.System as Sys;
 
 class VarioApp extends App.AppBase {
 
     var varioView;
-    var clockTime;
+    var dataTimer;
+    var updateInterval = 500;
 
     //! onStart() is called on application start up
     function onStart() {
-        Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:onPosition));
+        dataTimer = new Timer.Timer();
+        dataTimer.start( method(:timerCallback), updateInterval, true );
     }
 
     //! onStop() is called when your application is exiting
     function onStop() {
-        Position.enableLocationEvents(Position.LOCATION_DISABLE, method(:onPosition));
     }
-
-	// updated about each second
-    function onPosition(info) {
-        clockTime = Sys.getClockTime();
-       //varioView.setTime(clockTime.getTimer());
-        varioView.setPosition(info,clockTime.getTimer());
-    }
+	
+	function timerCallback() {
+		varioView.setSensorInfo(Sensor.getInfo(),  updateInterval);
+	}
     
     //! Return the initial view of your application here
     function getInitialView() {
         varioView = new VarioView();
+        varioView.setSensorInfo(Sensor.getInfo(), updateInterval);
         return [ varioView ];
     }
-
 }
