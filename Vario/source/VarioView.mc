@@ -16,6 +16,13 @@ class VarioView extends Ui.View {
 	var altitude = null;
     var lastAltitude = 0;
     var updateInterval = 0;
+    var HR_graph;
+    
+    //! Constructor
+    function initialize()
+    {
+        HR_graph = new LineGraph( 20, 10, Gfx.COLOR_RED );
+    }
                       
     //! Load your resources here
     function onLayout(dc) {
@@ -67,13 +74,19 @@ class VarioView extends Ui.View {
 
             // print altitude
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-            dc.drawText( (dc.getWidth() / 2), ((dc.getHeight() / 2) + 10), Gfx.FONT_SMALL, altitude.toDouble().format("%0.2f").toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText(dc.getWidth() / 2, ((dc.getHeight() / 2) + 10), Gfx.FONT_SMALL, altitude.toDouble().format("%0.2f").toString() + " m", Gfx.TEXT_JUSTIFY_CENTER );
+        	
+        	HR_graph.addItem(altitude);
+        	
+        	// draw graph
+        	HR_graph.draw( dc, [5,30], [200,129] );
+        	
         	
         	// update data 
         	lastAltitude = altitude;
         }
         else {
-            dc.drawText( (dc.getWidth() / 2), (dc.getHeight() / 2), Gfx.FONT_SMALL, "No barometer information", Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, Gfx.FONT_SMALL, "No barometer information", Gfx.TEXT_JUSTIFY_CENTER );
         }
     }
 
@@ -81,6 +94,7 @@ class VarioView extends Ui.View {
     function setSensorInfo(sensorInfoX, updateIntervalX) {
         sensorInfo = sensorInfoX;
         updateInterval = updateIntervalX;
+        
         Ui.requestUpdate();
     }
  
